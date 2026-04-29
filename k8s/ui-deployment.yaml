@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sentinai-ui
+  labels:
+    app: sentinai-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sentinai-ui
+  template:
+    metadata:
+      labels:
+        app: sentinai-ui
+    spec:
+      containers:
+        - name: ui-container
+          image: <your-docker-username>/sentinai-ui:latest
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "100m"
