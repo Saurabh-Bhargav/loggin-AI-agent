@@ -3,10 +3,11 @@ kind: Service
 metadata:
   name: sentinai-ui-service
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: sentinai-ui
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
+      nodePort: 30080
