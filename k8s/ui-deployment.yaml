@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: ui-container
-          image: <your-docker-username>/sentinai-ui:latest
+          image: saurabhbhargav/loggin-ai-agent:latest
           ports:
             - containerPort: 80
           resources:
