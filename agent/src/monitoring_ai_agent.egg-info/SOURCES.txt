@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/monitoring_agent/__init__.py
+src/monitoring_agent/analyzer.py
+src/monitoring_agent/app.py
+src/monitoring_agent/main.py
+src/monitoring_agent/models.py
+src/monitoring_agent/prediction.py
+src/monitoring_agent/storage.py
+src/monitoring_ai_agent.egg-info/PKG-INFO
+src/monitoring_ai_agent.egg-info/SOURCES.txt
+src/monitoring_ai_agent.egg-info/dependency_links.txt
+src/monitoring_ai_agent.egg-info/entry_points.txt
+src/monitoring_ai_agent.egg-info/requires.txt
+src/monitoring_ai_agent.egg-info/top_level.txt
